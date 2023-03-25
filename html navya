@@ -1,0 +1,12 @@
+<div class="container">
+    <form action="action_page.php">
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="firstname"
+        placeholder="yourname..">
+        <label for="lname">last name</label>
+        <input type="text" id="lname" name="lastname" placeholder="your last name..">
+    <label for="email">enter your email:</label>
+<input type="ëmail" id="email" name="ëmail">
+<label for="phone">Enter your phone number:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">    </form>
+</div>
